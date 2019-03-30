@@ -16,3 +16,5 @@
 });*/
 
 Route::get('getdata','GetDataController@GetData');
+Route::get('/','PagesController@root');
+Route::post('person','PeopleController@show')->name('person.show');
